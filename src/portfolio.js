@@ -11,43 +11,35 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Madelin Capellan",
+  title: "Hi all, I'm Maddie",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Some Awesome Presentation Here 😎"
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+  resumeLink: "https://drive.google.com/file/d/1s_ikTQjhIf0flwMjlWKgblZxcuvdBzb_/view",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "",
+  linkedin: "",
+  gmail: "",
+  gitlab: "",
+  facebook: "",
+  medium: "",
+  stackoverflow: "",
   // Instagram and Twitter are also supported in the links!
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 // Skills Section
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Some Awesome Skills Here 😎",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -55,56 +47,28 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Windows",
+      fontAwesomeClassname: "fab fa-windows"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Word",
+      fontAwesomeClassname: "fas fa-file-word"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Excel",
+      fontAwesomeClassname: "fas fa-file-excel"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "PowerPoint",
+      fontAwesomeClassname: "fas fa-file-powerpoint"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
+      skillName: "Oracle",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "PowerBI",
+      fontAwesomeClassname: "fas fa-chart-pie"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -116,23 +80,20 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "Universidad Dominicana O&M",
+      logo: require("./assets/images/O&M-Logo.jpg"),
+      subHeader: "Bachelor in Systems Engineering",
+      duration: "2016 - 2021",
+      desc: "",
+      descBullets: []
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Instituto Politécnico El Ave Maria",
+      logo: require("./assets/images/School-Logo.jpg"),
+      subHeader: "Bachelor in Computer Science",
+      duration: "2012 - 2015",
+      desc: "",
+      descBullets: []
     }
   ]
 };
@@ -140,20 +101,12 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "", //Insert stack or technology you have experience in
+      progressPercentage: "0%" //Insert relative proficiency in percentage
     },
-    {
-      Stack: "Backend",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "60%"
-    }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -164,29 +117,28 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      role: "Cashier",
+      company: "Banco Popular Dominicano",
+      companylogo: require("./assets/images/BPD-Logo.jpg"),
       date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      desc: "",
+      descBullets: []
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Customer Service",
+      company: "Papeleria Analisiana",
+      companylogo: require("./assets/images/Dominican-Republic-Flag.png"),
+      date: "June 2018 – Present",
+      desc: "",
+      descBullets: []
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Customer Service",
+      company: "Boligrafos Dominicanos",
+      companylogo: require("./assets/images/Dominican-Republic-Flag.png"),
+      date: "June 2018 – Present",
+      desc: "",
+      descBullets: []
     }
   ]
 };
@@ -196,7 +148,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -217,19 +169,8 @@ const bigProjects = {
         //  you can add extra buttons here.
       ]
     },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -237,52 +178,126 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
-
+  subtitle:"",
   achievementsCards: [
+    // {
+    //   title: "Remote Work and Virtual Collaboration Certificate (RWVCPC)",
+    //   subtitle: "CertiProf",
+    //   image: require("./assets/images/RWVCPC_CertiProf-Badge.webp"),
+    //   footerLink: [
+    //     {
+    //       name: "Certification",
+    //       url: "https://certiprof.com/pages/remote-work-and-virtual-collaboration-certificate-rwvcpc"
+    //     }
+    //   ]
+    // },
+    // {
+    //   title: "Scrum Foundation (SFPC)",
+    //   subtitle: "CertiProf",
+    //   image: require("./assets/images/SFPC-CertiProf-Badge.webp"),
+    //   footerLink: [
+    //     {
+    //       name: "Certification",
+    //       url: "https://certiprof.com/pages/scrum-foundations-professional-certificate-sfpc-english"
+    //     }
+    //   ]
+    // },
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      title: "Cyber Security Foundation (CFSP)",
+      subtitle: "CertiProf",
+      image: require("./assets/images/CSFPC-CertiProf-Badge.webp"),
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://certiprof.com/pages/cyber-security-foundation-csfpc"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      title: "PowerBI For Starters",
+      subtitle: "LinkedIn Learning",
+      image: require("./assets/images/LinkedIn-Learning-Logo.png"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Course",
+          url: "https://www.linkedin.com/learning/"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Cybersecurity, Networking & Web",
+      subtitle: "LinkedIn Learning",
+      image: require("./assets/images/LinkedIn-Learning-Logo.png"),
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Course",
+          url: "https://www.linkedin.com/learning/"
+        }
+      ]
+    },
+    {
+      title: "Introduction To Networks",
+      subtitle: "CTC",
+      image: require("./assets/images/CTC-Logo.png"),
+      footerLink: [
+        {
+          name: "Program",
+          url: "https://ctc.edu.do/"
+        }
+      ]
+    },
+    {
+      title: "Database Oracle & PL/SQL",
+      subtitle: "República Digital",
+      image: require("./assets/images/Republica-Digital-Logo.jpg"),
+      footerLink: [
+        {
+          name: "Program",
+          url: "https://republicadigital.gob.do"
+        }
+      ]
+    },
+    {
+      title: "Immersion English",
+      subtitle: "MESCyT",
+      image: require("./assets/images/MESCYT-Logo.png"),
+      footerLink: [
+        {
+          name: "Program",
+          url: "https://mescyt.gob.do/ingles-de-inmersion/"
+        }
+      ]
+    },
+    {
+      title: "IT Technical Analyst",
+      subtitle: "Fundación Carlos Slim",
+      image: require("./assets/images/Fundacion-Carlos-Slim-Logo.jpg"),
+      footerLink: [
+        {
+          name: "Course",
+          url: "https://fundacioncarlosslim.org/"
+        }
+      ]
+    },
+    {
+      title: "Computer Security Technician",
+      subtitle: "Fundación Carlos Slim",
+      image: require("./assets/images/Fundacion-Carlos-Slim-Logo.jpg"),
+      footerLink: [
+        {
+          name: "Course",
+          url: "https://fundacioncarlosslim.org/"
+        }
+      ]
+    },
+    {
+      title: "Office and Customer Service",
+      subtitle: "Kuepa",
+      image: require("./assets/images/Kuepa-Logo.webp"),
+      footerLink: [
+        {
+          name: "Course",
+          url: "https://www.kuepa.com/do"
         }
       ]
     }
@@ -299,19 +314,12 @@ const blogSection = {
 
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+      url: "",
+      title: "",
+      description: ""
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -324,13 +332,13 @@ const talkSection = {
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "",
+      subtitle: "",
+      slides_url: "",
+      event_url: ""
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -341,24 +349,23 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    ""
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  title: emoji("Contact Me 💌"),
+  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
+  //number: "",
+  email_address: "madelincapellan23@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
